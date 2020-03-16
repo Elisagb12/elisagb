@@ -159,7 +159,7 @@
 						    </div>
 						</div>
 					</div>
-
+					
 					<div class="row">
 		        		<div class="col-xs-3 col-sm-3">Photoshop 2</div>
 			        	<div class="col-xs-9 col-sm-9 progress-container">

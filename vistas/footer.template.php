@@ -14,8 +14,6 @@
 					width: ancho
 				}, 2500);
 			})
-
-			
 		})
 
 		function showMenuMovil()

@@ -366,3 +366,16 @@ ul.menu-list>li
   animation-name: fadeLeft-o;
 }
 
+.bg-mainColor {
+  background-color: orange;
+}
+
+.progress.active .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
+.datos-cv{
+  margin-bottom: 20px;
+}
+

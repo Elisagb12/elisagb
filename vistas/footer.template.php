@@ -7,6 +7,15 @@
 		$(document).ready(function()
 		{	var w_height = $(window).height();
 			$(".movil-menu").css({"height":w_height});
+
+			$(".progress-bar").each(function(){
+				var ancho = $(this).data("ancho")
+				$(this).animate({
+					width: ancho
+				}, 2500);
+			})
+
+			
 		})
 
 		function showMenuMovil()

@@ -151,8 +151,23 @@
 		            Competencia
 		        </div>
 		        <div class="content">
+		        	<div class="row">
+		        		<div class="col-xs-3 col-sm-3">Photoshop</div>
+			        	<div class="col-xs-9 col-sm-9 progress-container">
+						    <div class="progress active">
+						        <div class="progress-bar bg-mainColor" style="width:0%" data-ancho="80%"></div>
+						    </div>
+						</div>
+					</div>
 
-
+					<div class="row">
+		        		<div class="col-xs-3 col-sm-3">Photoshop 2</div>
+			        	<div class="col-xs-9 col-sm-9 progress-container">
+						    <div class="progress active">
+						        <div class="progress-bar bg-mainColor" style="width:0%" data-ancho="40%"></div>
+						    </div>
+						</div>
+					</div>
 		        </div>
 		    </div>
 		</div>

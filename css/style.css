@@ -1,0 +1,368 @@
+/* Archivo para añadir nuestros estilos */
+
+body {
+    /* font-family: Helvetica, Arial;  definimos una tipografía por defecto */
+    /* margin: 0 auto; propiedad que centra la página */
+    max-width: 2000px; /* definimos un máximo de ancho para la página */
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	line-height: 1.4;
+    background-image: url(../img/fondo/greyzz.png);
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    font-weight: bold;
+   
+    
+}
+h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a img { 
+	border: none;
+}
+
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+  color: orange;
+}
+
+.contenedor { 
+	width: 1240px;
+  margin:0 auto;
+}
+
+.menuprincipal {
+	float: left;
+	width: 200px;
+	padding-bottom: 10px;
+	border-right-width: thin;
+	border-top-style: none;
+	border-right-style: dotted;
+	border-left-style: none;
+	border-right-color: #666;
+	border-top-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	text-transform: capitalize;
+	clear: none;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: fixed;
+}
+
+.contenido {
+	width: auto;
+	float: none;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+
+.menusecundario {
+	float: left;
+	width: 180px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #000;
+	color: #999;
+	padding-top: 50px;
+	padding-right: 40;
+	padding-bottom: 10px;
+	margin-left: 0;
+    margin-top: 3em;
+    font-size: 150%;
+}
+
+.general {
+    display: block;
+    max-width: 100%;
+    padding-right: 60px;
+    padding-left: 15px;
+}
+
+.nombre{
+    text-transform: capitalize;
+    font-size: 75px;
+    margin-bottom: 30px;
+    /* font-family: 'Marck Script', cursive; */
+    font-family: 'Great Vibes', cursive;
+    /* font-family: 'Tangerine', cursive; */
+    font-weight: lighter;
+    margin-top: 30px;
+    text-align: center;
+   
+}
+
+.datos-cv>.title{
+    text-transform: uppercase;
+    font-size: 27px;
+    font-family: 'Economica', sans-serif;
+}
+
+.datos-cv>.title>.icon{
+    color: orange !important;
+    
+}
+
+.des-cv {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    color: #A8A8A8;
+    
+}
+
+.des-sub
+{
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    color: #818181;
+
+}
+
+.des
+{
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+
+}
+/* Galeria Fotos */
+
+* {
+  box-sizing: border-box;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.galeria {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.galeria__item {
+  width: 100%;
+  cursor: pointer;
+}
+
+.visible-xs 
+{
+  display: none;
+}
+@media (min-width:480px) {
+  .galeria__item {
+    width: 30%;
+    margin: 5px;
+  }
+}
+@media (max-width:768px) {
+  .galeria__item {
+    width: 30%;
+  }
+
+  .hidden-xs
+  {
+    display: none;
+  }
+
+  .visible-xs 
+  {
+    display: block;
+  }
+
+  .logo>img
+  {
+    display:block;
+    margin:auto;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width:1024px) {
+  .galeria__item {
+    width: 20%;
+    margin: 5px;
+  }
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.7);
+  top: 0;
+  left: 0;
+  
+  display: flex;
+  align-items: center;
+}
+
+.modal__img {
+    width: 70%;
+    max-width: 700px;
+    position: absolute;
+    left: 30%;
+}
+
+.modal__boton {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: monospace;
+  line-height: 50px;
+  text-align: center;
+  background: red;
+  border-radius: 50%;
+  cursor: pointer;
+  
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+
+/*
+  Nuevos elementos por Ovidiu Muresan
+ */
+
+ul.menu-list
+{
+  list-style: none;
+  display: inline-flex;
+  width: 100%;
+  position: absolute;
+  top: 40%;
+}
+
+ul.menu-list>li
+{
+  width: 100%;
+  text-align: center;
+}
+
+.btn-movil-menu {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.movil-menu {
+    position: fixed;
+    background-color: white;
+    opacity: 0.9;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 20px;
+    color: #000000;
+    z-index: 10;
+}
+
+.movil-menu > ul {
+    list-style: none;
+    text-transform: uppercase;
+    padding-left: 0;
+}
+
+.list-items {
+    padding: 15px 0;
+    font-size: 24px;
+    opacity: 1;
+}
+
+.animation {
+
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+
+ }
+@-webkit-keyframes fadeLeft {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateX(-300px);
+    }
+    100% {
+       opacity: 0.8;
+       -webkit-transform: translateX(0);
+    }
+ }
+ 
+ @keyframes fadeLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-300px);
+    }
+    100% {
+       opacity: 0.8;
+       transform: translateX(0);
+    }
+ }
+
+ @-webkit-keyframes fadeLeft-o {
+    100% {
+       opacity: 0;
+       -webkit-transform: translateX(-300px);
+    }
+    0% {
+       opacity: 0.8;
+       -webkit-transform: translateX(0);
+    }
+}
+ 
+ @keyframes fadeLeft-o {
+    100% {
+       opacity: 0;
+       transform: translateX(-300px);
+    }
+    0% {
+       opacity: 0.8;
+       transform: translateX(0);
+    }
+}
+
+.fadeLeft {
+  -webkit-animation-name: fadeLeft;
+  animation-name: fadeLeft;
+} 
+
+.fadeLeft-o {
+  -webkit-animation-name: fadeLeft-o;
+  animation-name: fadeLeft-o;
+}
+

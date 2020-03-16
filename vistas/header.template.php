@@ -19,6 +19,7 @@
 	<div class="header row">
 		<div class="logo col-sm-2 col">
 			<a href="home"><img src="img/logo.png" width="100%"></a>
+		</div>
         </div>
 
         <div class="menu col-sm-10 col-6 hidden-xs">

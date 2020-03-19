@@ -152,7 +152,7 @@
 		        </div>
 		        <div class="content">
 		        	<div class="row">
-		        		<div class="col-xs-3 col-sm-3">Photoshop</div>
+		        		<div class="col-xs-3 col-sm-3"><b>Entorno Windows <i class="fab fa-windows icon"></i></b></div>
 			        	<div class="col-xs-9 col-sm-9 progress-container">
 						    <div class="progress active">
 						        <div class="progress-bar bg-mainColor" style="width:0%" data-ancho="80%"></div>
@@ -161,14 +161,83 @@
 					</div>
 					
 					<div class="row">
-		        		<div class="col-xs-3 col-sm-3">Photoshop 2</div>
+		        		<div class="col-xs-3 col-sm-3"><b>Entorno Mac <i class="fab fa-apple icon"></i></b></div>
 			        	<div class="col-xs-9 col-sm-9 progress-container">
 						    <div class="progress active">
-						        <div class="progress-bar bg-mainColor" style="width:0%" data-ancho="40%"></div>
+						        <div class="progress-bar bg-mainColor" style="width:0%" data-ancho="85%"></div>
 						    </div>
 						</div>
 					</div>
+
+					<div class="row">
+		        		<div class="col-xs-3 col-sm-3"><b>Photoshop <i class="fas fa-images icon"></i></b></div>
+			        	<div class="col-xs-9 col-sm-9 progress-container">
+						    <div class="progress active">
+						        <div class="progress-bar bg-mainColor" style="width:0%" data-ancho="70%"></div>
+						    </div>
+						</div>
+					</div>
+
+					<div class="row">
+		        		<div class="col-xs-3 col-sm-3"><b>Illustrator <i class="fas fa-bezier-curve icon"></i></b></div>
+			        	<div class="col-xs-9 col-sm-9 progress-container">
+						    <div class="progress active">
+						        <div class="progress-bar bg-mainColor" style="width:0%" data-ancho="75%"></div>
+						    </div>
+						</div>
+					</div>
+
+					<div class="row">
+		        		<div class="col-xs-3 col-sm-3"><b>InDesign <i class="fas fa-font icon"></i></b></div>
+			        	<div class="col-xs-9 col-sm-9 progress-container">
+						    <div class="progress active">
+						        <div class="progress-bar bg-mainColor" style="width:0%" data-ancho="70%"></div>
+						    </div>
+						</div>
+					</div>
+
+					<div class="row">
+		        		<div class="col-xs-3 col-sm-3"><b>Sublime <i class="fas fa-code icon"></i></b></div>
+			        	<div class="col-xs-9 col-sm-9 progress-container">
+						    <div class="progress active">
+						        <div class="progress-bar bg-mainColor" style="width:0%" data-ancho="75%"></div>
+						    </div>
+						</div>
+					</div>
+
+					<div class="row">
+		        		<div class="col-xs-3 col-sm-3"><b>Wordpress <i class="fab fa-wordpress icon"></i></b></div>
+			        	<div class="col-xs-9 col-sm-9 progress-container">
+						    <div class="progress active">
+						        <div class="progress-bar bg-mainColor" style="width:0%" data-ancho="60%"></div>
+						    </div>
+						</div>
+					</div>
+
+					<div class="row">
+		        		<div class="col-xs-3 col-sm-3"><b>R.R.S.S. <i class="fas fa-users icon"></i></b></div>
+			        	<div class="col-xs-9 col-sm-9 progress-container">
+						    <div class="progress active">
+						        <div class="progress-bar bg-mainColor" style="width:0%" data-ancho="75%"></div>
+						    </div>
+						</div>
+					</div>
+
+					<div class="row">
+		        		<div class="col-xs-3 col-sm-3"><b>FTP <i class="fab fa-cloudversify icon"></i></b></div>
+			        	<div class="col-xs-9 col-sm-9 progress-container">
+						    <div class="progress active">
+						        <div class="progress-bar bg-mainColor" style="width:0%" data-ancho="55%"></div>
+						    </div>
+						</div>
+					</div>
+				
+
+
+
 		        </div>
+
+
 		    </div>
 		</div>
 	</div>

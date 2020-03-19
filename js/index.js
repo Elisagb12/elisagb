@@ -13,3 +13,8 @@ $(document).keyup(function(e){
     $('#modal').remove();
   }
 })
+
+// MDB Lightbox Init
+$(function () {
+$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});

@@ -117,6 +117,9 @@ a:hover, a:active, a:focus {
     text-align: center;
    
 }
+.icon{
+    color: orange !important;
+}
 
 .datos-cv>.title{
     text-transform: uppercase;
@@ -126,7 +129,7 @@ a:hover, a:active, a:focus {
 
 .datos-cv>.title>.icon{
     color: orange !important;
-    
+
 }
 
 .des-cv {

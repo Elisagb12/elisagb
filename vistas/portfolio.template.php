@@ -3,7 +3,7 @@
 
     <div id="mdb-lightbox-ui"></div>
 
-    <div class="mdb-lightbox no-margin">
+    <div class="mdb-lightbox" style="margin-top: 40px;">
 
       <!-- copias desde el row -->
       <div class="row">

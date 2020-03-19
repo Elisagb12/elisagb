@@ -10,11 +10,14 @@
 
 			$(".progress-bar").each(function(){
 				var ancho = $(this).data("ancho")
+				$(this).html(ancho)
 				$(this).animate({
 					width: ancho
 				}, 2500);
 			})
 		})
+
+
 
 		function showMenuMovil()
 		{

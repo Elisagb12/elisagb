@@ -1,36 +1,51 @@
-<div class="row">
-  <div class="col-md-12">
+ <div class="tz-gallery">
 
-    <div id="mdb-lightbox-ui"></div>
-
-    <div class="mdb-lightbox no-margin">
-
-      <!-- copias desde el row -->
-      <div class="row">
-        <div class="col-md-4">
-          <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" data-size="1600x1067">
-            <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"
-              class="img-fluid">
-          </a>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../galeria/images/park.jpg">
+                    <img src="../galeria/images/park.jpg" alt="Park">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../galeria/images/bridge.jpg">
+                    <img src="../galeria/images/bridge.jpg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="../galeria/images/tunnel.jpg">
+                    <img src="../galeria/images/tunnel.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../galeria/images/coast.jpg">
+                    <img src="../galeria/images/coast.jpg" alt="Coast">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../galeria/images/rails.jpg">
+                    <img src="../galeria/images/rails.jpg" alt="Rails">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../galeria/images/traffic.jpg">
+                    <img src="../galeria/images/traffic.jpg" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../galeria/images/rocks.jpg">
+                    <img src="../galeria/images/rocks.jpg" alt="Rocks">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../galeria/images/benches.jpg">
+                    <img src="../galeria/images/benches.jpg" alt="Benches">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../galeria/images/sky.jpg">
+                    <img src="../galeria/images/sky.jpg" alt="Sky">
+                </a>
+            </div>
         </div>
-
-        <div class="col-md-4">
-          <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" data-size="1600x1067">
-            <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"
-              class="img-fluid" />
-          </a>
-        </div>
-
-        <div class="col-md-4">
-          <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" data-size="1600x1067">
-            <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"
-              class="img-fluid" />
-          </a>
-        </div>
-      </div>
-
 
     </div>
-
-  </div>
-</div>

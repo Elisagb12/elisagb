@@ -3,6 +3,7 @@
 	<script type="text/javascript" src="plugins/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="plugins/fontawesome/all.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function()
 		{	var w_height = $(window).height();
@@ -15,6 +16,7 @@
 					width: ancho
 				}, 2500);
 			})
+			baguetteBox.run('.tz-gallery');
 		})
 
 

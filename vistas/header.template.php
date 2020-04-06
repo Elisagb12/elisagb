@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="plugins/animate/animate.css">
     <link rel="stylesheet" type="text/css" href="plugins/fontawesome/all.css">
     <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Clicker+Script|Great+Vibes|Marck+Script|Tangerine|Dosis|Economica:400,700,700i|" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="galeria/grid/gallery-grid.css">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     

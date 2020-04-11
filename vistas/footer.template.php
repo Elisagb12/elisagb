@@ -1,3 +1,9 @@
+<?php
+
+$hola = "HOLA PRUE";
+
+?>
+
 </body>
 <footer>
 	<script type="text/javascript" src="plugins/jquery/jquery.min.js"></script>
@@ -16,8 +22,27 @@
 					width: ancho
 				}, 2500);
 			})
-			baguetteBox.run('.tz-gallery');
+
+			$("#gallery-tabs").html("HOLAD")
+			$.post("gallery.php",{gallery:""},function(response,status){
+				var res = JSON.parse(response);
+				$("#gallery-tabs").html(res.menu);
+				showGallery(res.gallery)
+			})
+			
 		})
+
+		function loadGallery(e) {
+			$.post("gallery.php",{gallery:e.data("gallery")},function(response,status){
+				var res = JSON.parse(response)
+				showGallery(res.gallery)
+			})
+		}
+
+		function showGallery(e) {
+			$("#gallery-list").html(e);
+			baguetteBox.run('.tz-gallery');
+		}
 
 
 

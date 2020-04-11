@@ -2,6 +2,10 @@ Options All -Indexes
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
+
+    RewriteCond %{REQUEST_METHOD} POST
+	RewriteRule ^ - [L]
+
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^.*$ index.php
 </IfModule>

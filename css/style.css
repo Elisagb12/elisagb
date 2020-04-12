@@ -387,6 +387,13 @@ ul.menu-list>li
   margin: 0 auto;
 }
 
+.logo {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
 .nav-link.active{
   background-color: orange !important;
 }

@@ -19,7 +19,7 @@
 </head>
 <body class="container">
 	<div class="header row">
-		<div class="logo col-sm-2 col">
+		<div class="logo col-sm-2 col-6">
 			<a href="home"><img src="img/logo.png" width="100%"></a>
         </div>
 

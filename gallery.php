@@ -13,7 +13,7 @@ $ext = array("jpg","png","jpeg");
 $gallery = '<div class="tz-gallery"><div class="row">';
 $menu_tab = '<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">';
 $menu_tab .= '<li class="nav-item">
-				<a class="nav-link active" id="home-tab" data-toggle="pill" role="tab" aria-controls="home" aria-selected="true" onclick="loadGallery($(this))" data-gallery=""><i class="fas fa-home"></i></a>
+				<a class="nav-link active" id="home-tab" data-toggle="pill" role="tab" aria-controls="home" aria-selected="true" onclick="loadGallery($(this))" data-gallery="">Carteleria</a>
 			</li>';
 
 foreach ($element as $value) {

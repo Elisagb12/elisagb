@@ -33,7 +33,7 @@
         </div>
 
         <div class="btn-movil-menu visible-xs shadow-lg" onclick="showMenuMovil()">
-        	<i class="fas fa-bars fa-2x"></i>
+        	<i class="fas fa-ellipsis-h fa-2x"></i>
         </div>
 		<div class="movil-menu invisible animation">
 			<ul>

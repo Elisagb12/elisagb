@@ -382,4 +382,11 @@ ul.menu-list>li
   margin-bottom: 20px;
 }
 
+.menu-galeria {
+  display: table;
+  margin: 0 auto;
+}
 
+.nav-link.active{
+  background-color: orange !important;
+}

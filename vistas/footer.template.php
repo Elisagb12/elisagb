@@ -1,9 +1,3 @@
-<?php
-
-$hola = "HOLA PRUE";
-
-?>
-
 </body>
 <footer>
 	<script type="text/javascript" src="plugins/jquery/jquery.min.js"></script>
@@ -23,7 +17,6 @@ $hola = "HOLA PRUE";
 				}, 2500);
 			})
 
-			$("#gallery-tabs").html("HOLAD")
 			$.post("gallery.php",{gallery:""},function(response,status){
 				var res = JSON.parse(response);
 				$("#gallery-tabs").html(res.menu);
